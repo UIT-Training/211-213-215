@@ -11,7 +11,7 @@
 > 
 > [**第四章：Git尝试修改**](#change)
 > 
-> [**第五章：Git分支操作**](#branch)
+> [**第五章：Git分支操作**](#branch_1)
 > 
 > [**第六章：Git远程提交**](#push)
 > 
@@ -173,7 +173,7 @@ $git status
 ***
 
 
-## <a name="branch"></a>第五章：Git分支操作
+## <a name="branch_1"></a>第五章：Git分支操作
 
 
 ###新建分支
