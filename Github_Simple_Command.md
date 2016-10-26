@@ -22,6 +22,8 @@
 
 ***
 
+***
+
 ## <a name="setting"></a>第一章：Git环境设置
 
 ####Linux
@@ -41,6 +43,8 @@ $sudo apt-get install git-core
 ####Window
 
 * 使用[git bush](https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/Git-2.10.1-32-bit.exe)
+
+***
 
 ***
 
@@ -88,7 +92,6 @@ $vi < ~/.ssh/id_rsa.pub
 ```
 
 ###Step 4:关联Terminal与GitHub
-***
 
 1. 登录自己的GitHub账号进入Settings
 
@@ -114,7 +117,7 @@ $ssh -T git@github.com
 >
 ***
 
-## <a name="push"></a>第三章：Git拉取文件
+## <a name="create"></a>第三章：Git拉取文件
 
 ###从远程拉取 UIT-Training/211-213-215
 
@@ -124,6 +127,8 @@ $ssh -T git@github.com
 ```
 $git clone https://github.com/UIT-Training/211-213-215.git
 ```
+
+***
 
 ***
 
@@ -139,9 +144,12 @@ $cd 211-213-215/
 
 vim下载地址：
 > [Linux](http://www.vim.org/git.php)
-> [Mac](https://github.com/macvim-dev/macvim/releases/download/snapshot-113/MacVim.dmg)
-> [Windows](ftp://ftp.vim.org/pub/vim/pc/gvim80.exe)
 > 
+> [Mac](https://github.com/macvim-dev/macvim/releases/download/snapshot-113/MacVim.dmg)
+> 
+> [Windows](ftp://ftp.vim.org/pub/vim/pc/gvim80.exe)
+
+
 ```
 $vim shenxiaojian.md 
 ```
@@ -159,6 +167,8 @@ $git status
 ```
 ![Show](https://github.com/Mr-Jason-Sam/UIT_Resource/blob/master/C0C742FE-2A1A-4279-BC77-6B5131F8B541.png?raw=true)
 结果，文件未标记，需要进行git add 操作
+
+***
 
 ***
 
@@ -193,6 +203,8 @@ $git checkout shenxiaojian
 
 ***
 
+***
+
 ## <a name="push"></a>第六章：Git远程提交
 
 ###Step 1:文件标记
@@ -221,13 +233,19 @@ $git push -u origin shenxiaojian
 
 ***
 
+***
+
 ## <a name="pro"></a>第七章：Pro Git
 
 ###本周末可以学习[Pro Git](http://git.oschina.net/progit/)的基本用法～
 
 > 重要的知识点都在**前5章**,其他知识点可以选看，最好动手实践，而不是复制粘贴
 
+***
+
+***
+
 
 ## <a name="thanks"></a>Thanks
 
- **有需要改正的可以指出**
+ [**有需要改正的可以指出**](https://github.com/UIT-Training/Advice)
